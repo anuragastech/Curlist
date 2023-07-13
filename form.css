@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding:0;
+    
+}
+form{
+    background-color: silver;
+    padding: 100px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+
+
+    
+   
+}
+ input{
+        padding-left: 50px;
+        justify-content: center;
+
+    }
+    label{
+       box-sizing: border-box;
+    }
+    input[type=text]{
+        width: 180px;
+        height: 25px;
+    }

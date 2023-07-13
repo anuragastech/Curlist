@@ -1,0 +1,681 @@
+body{
+    margin: 0;
+    padding:0;
+    z-index: 0;
+}
+main{
+    padding-top: 10px;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color:gray;
+    position:fixed;
+    top:0;
+    z-index: 2;
+    padding-left: 200px;
+    /* position: relative; */
+
+    
+}
+.brandname{font-size: 40px;
+    color: white;
+    margin-top: 5px;
+}
+.navbarin{padding-left: 200px;
+margin-bottom: 100px;
+margin-top: -60px;
+color: white;
+}
+.navbarin li{
+     
+    padding: 50px;
+ display: inline;
+ list-style: none;
+}
+
+.main1{
+    position: relative;
+}
+.watch1{  overflow: hidden;
+ height: 290px;
+  width: 400px;
+    margin-top: 150px;
+    margin-left: 68px;
+    
+  
+
+}
+.watch1 img{
+    width: 100%;
+ 
+    transition: 6s;
+  
+
+
+
+}
+.watch1 img:hover{
+    transform: scale(1.8);
+    cursor: pointer;
+}
+.button{
+    width: 90px;
+    height: 40px;
+    background-color:rgb(185, 111, 65);
+    color: antiquewhite;
+    border: 2px solid white;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 225px;
+    margin-top: 20px;
+
+
+}
+.button:hover{background-color:silver;
+    color: black;
+    border: 3px solid black;
+
+}
+
+.head{
+    font-size:  75px;
+font-family: sans-serif;
+font-weight: bold;
+color: black;
+position: absolute;
+left: 600px;
+top: 50px;
+}
+.buttonewtrend{
+    width: 190px;
+    height: 50px;
+    background-color:black;
+    color: antiquewhite;
+    border: 3px solid white;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 425px;
+    left: 320px;
+    position: absolute;
+    top: 310px;
+    
+
+
+}
+.buttonewtrend:hover{
+    background-color:white;
+    color: black;
+    border: 3px solid black;
+
+}
+
+
+
+.preorder{
+font-size: 40px;
+font-family: sans-serif;
+font-weight: bold;
+color:black;
+margin-left: 600px;
+left: 100px;
+top: 230px;
+position: absolute;
+
+
+}
+.background{
+    width: 98%;
+    height: 450px;
+    background-color:black ;
+    margin-top: 100px;
+    margin-left: 15px;
+
+    position: relative;
+}
+.head2{
+    padding: 15px;
+    padding-left: 15px;
+    padding-top: 70px;
+    font-size: 70px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.fleximg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 320px;
+    height: 1090px;
+    width: 900px;
+
+    margin-top: -340px;
+    
+
+}
+.i1{
+    flex: 1;
+}
+.i2{
+    flex: 1;
+}
+.i3{
+    flex: 1;
+}
+.i4{
+    flex: 1;
+}
+.button2{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: silver;
+    color: black;
+    border: 2px solid wheat;
+    width: 220px;
+    height: 50px;
+    position: absolute;
+    left: 80px;
+}
+.button2:hover{
+    background-color: black;
+    color: white;
+    
+}
+.TEXT5{
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+    margin-left: 400px;
+
+}
+.round1{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: url("./img/watchmain-modified.png");
+    margin-left: 100px;
+    background-size: 100%;
+}
+.round2{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: url(" ./img/fasion (1).png ");
+    margin-left: 50px;
+    background-size: 100%;
+}
+.round3{ height: 200px;
+width: 200px;
+border-radius: 50%;
+background-image: url("./img/watch3-modified.png");
+background-size: 100%;
+margin-left: 50px;
+}
+.round4{
+    height:200px;
+    width: 200px;
+    border-radius: 50%;
+ background-image: url("./img/watch4-modified.png");
+    margin-left: 50px;
+    background-size: 100%;
+    
+}
+
+.radious{display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    background-size: 100%;
+    
+
+}
+.button10{
+    font-size: 14px;
+    font-weight: bold;
+    width: 90px;
+    height: 30px;
+    background-color: silver;
+    border: 2px solid black;
+    color: black;
+    margin-left: 220px;
+    margin-top: 25px;
+
+}
+.button10:hover{
+    background-color: black;
+    color: white;
+}
+.button11{
+    font-size: 14px;
+    font-weight: bold;
+    width: 90px;
+    height: 30px;
+    background-color: silver;
+    border: 2px solid black;
+    color: black;
+    margin-left: 160px;
+    margin-top: 25px;
+
+}
+.button11:hover{
+    background-color: black;
+    color: white;
+}
+.button12{
+    font-size: 14px;
+    font-weight: bold;
+    width: 90px;
+    height: 30px;
+    background-color: silver;
+    border: 2px solid black;
+    color: black;
+    margin-left: 170px;
+    margin-top: 25px;
+
+
+}
+.button12:hover{
+    background-color: black;
+    color: white;
+}
+.button13{
+    font-size: 14px;
+    font-weight: bold;
+    width: 90px;
+    height: 30px;
+    background-color: silver;
+    border: 2px solid black;
+    color: black;
+    margin-left: 175px;
+    margin-top: 25px;
+
+}
+.button13:hover{
+    background-color: black;
+    color: white;
+}
+
+.videosin{
+    margin-top: 50px;
+    position: relative;
+    
+}
+.vedio1{
+
+    margin-left: 230px;
+margin-top: 155px;
+margin-bottom: 90px;
+}
+
+.gallery{display:flex ;
+    flex-direction: row;
+    height: 550px;
+
+    position: relative;
+    width: 100%;
+   
+
+}
+.photos{display:flex ;
+    flex-direction: row;
+    height: 850px;
+}
+.textstyle{
+    font-size: 50px;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: 2px solid white;
+       
+    position: absolute;
+    left: 390px;
+    top: 150px;
+
+}
+.textstyle:hover{
+    border: 2px solid black ;
+   
+
+}
+
+.button3{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+width: 155px;
+height: 50px;
+background-color: white;
+color: black;
+border: 2px solid black;
+position: absolute;
+left: 550px;
+top: 500px;
+}
+.button3:hover{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+ 
+}
+.vedio2{margin-bottom: 50px;
+    margin-left: 200px;
+    
+   
+    
+
+}
+.vediostick{
+    background-attachment: fixed;
+}
+.maintext50{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+    margin-left: 80px;
+    
+    
+
+
+
+}
+.maintext50:hover{
+    /* text-decoration: underline ; */
+    padding:2px;
+}
+.back1{
+    background-image: url("./img/whatchhd (8).jpg") ;
+    background-size: 800px;
+    height: 500px;
+    width: 600px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    background-attachment: fixed;
+
+}
+.mainback{
+    margin-bottom: 80px;
+
+}
+.offeron{ position: relative;
+
+}
+.off50{
+font-size: 60px;
+font-family: sans-serif;
+font-weight: bold;
+color:black;
+margin-left: 50px;
+margin-top: 40px;
+}
+.button20{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+width: 155px;
+height: 50px;
+background-color: silver;
+color: black;
+border: 2px solid black;
+position: absolute;
+left: 543px;
+bottom: 133px;
+
+
+
+}
+.button20:hover{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+ 
+}
+.head10{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: absolute;
+    left: 450px;
+    bottom: 170px;
+    color: white;
+}
+
+
+
+.flex3{
+    margin-bottom: 100px;
+
+}
+.photo3{
+   position: relative;
+}
+.photohead{
+    width: 100%px;
+    height: 470px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: center;
+    align-items: start;
+
+}
+.textmainimage3{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    left: 210px;
+
+}
+.button999{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+width: 155px;
+height: 40px;
+background-color: silver;
+color: black;
+border: 2px solid black;
+position: absolute;
+left: 113px;
+top: 240px;
+
+
+
+}
+.button999:hover{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+ 
+}
+.buttonA{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+width: 155px;
+height: 40px;
+background-color: silver;
+color: black;
+border: 2px solid black;
+position: absolute;
+left: 543px;
+top: 240px;
+
+
+
+}
+.buttonA:hover{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+ 
+}
+.buttonB{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+width: 155px;
+height: 40px;
+background-color: silver;
+color: black;
+border: 2px solid black;
+position: absolute;
+right: 100PX;
+top: 245px;
+
+
+
+}
+.buttonB:hover{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+ 
+}
+.headforstyle{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 290px;
+    margin-top: -125px;
+    
+    
+
+
+}
+table{
+    width: 100%;
+    margin-bottom: 90px;
+}
+table td {
+    text-align: center;
+    /* padding: 30px; */
+}
+.ulmain{display: flex;
+    flex-direction: row;
+    width: 100%px;
+    height: 485px;
+    list-style: none;
+    margin-top: 50px;    
+
+}
+.ulmain2{
+    
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 455px;
+    list-style: none;
+    margin-right: 0px;
+    margin-bottom: 50px;
+    /* padding: 25px; */
+    justify-content: space-between;
+    text-align: center;
+    
+    
+
+}
+.A1,.A2,.A3{
+    padding:30px;
+
+
+}
+.maintextstyle{
+    font-size: 75px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+    margin-left: 450px;
+    margin-bottom: 50px;
+   
+
+}
+
+.backblack{
+   width: 500px; 
+   height: 300px;
+   background-color: white;
+   margin-left: 340px;
+   margin-top:125px;
+   margin-bottom: 90px;
+   position: relative;
+   border: 15px solid gre;
+   border-radius: 4%;
+
+}
+.musicmainhead{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    top: 10px;
+    left: 90px;
+}
+.audio0{
+    position: absolute;
+ top: 80px;
+ left: 80px;
+
+}
+.audio1{position: absolute;
+left: 80px;
+top: 155px;
+}
+.audio2{position: absolute;
+    left: 80px;
+    top: 230px;
+}
+.foot1{font-size: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    left: 45px;
+    top: 25px;
+
+
+}
+.foot2{font-size: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    left: 400px;
+    top: 25px;
+
+}
+.foot3{
+    font-size: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top:25px;
+    left: 700px;
+    
+}
+footer{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    position: relative;
+  
+}
+footer li{padding: 10px;
+list-style: none;
+}
+
